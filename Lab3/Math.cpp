@@ -63,11 +63,10 @@ char *Math::Add(const char *a, const char *b) {
         carry = sum / 10;
     }
 
-    // If there's a carry after all additions
     if (carry)
         arr[k--] = '1';
 
-    // Shift the result to the beginning of the array
+
     return &arr[k + 1];
 }
 
