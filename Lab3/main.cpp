@@ -2,6 +2,7 @@
 #include <cmath>
 #include "Math.h"
 #include "Canvas.h"
+#include "CanvasEx2.h"
 using namespace std;
 int main() {
     //Math math;
@@ -9,7 +10,27 @@ int main() {
     //cout << "Adunarea cu char: " << result << endl;
     //cout << "Suma listei: " << math.Add(5, 1, 2, 3, 4, 5) << std::endl;
 
-    Canvas canvas(10, 50);
+
+
+    // Draw shapes on each canvas
+// Create a canvas with dimensions 30x30
+    CanvasEx2 canvas(30, 30);
+
+    canvas.DrawRect(2, 2, 10, 15, '*');
+
+    canvas.Print();
+
+    canvas.Clear();
+
+    canvas.DrawCircle(15, 15, 8, '#'); // Center (15, 15), radius 8
+
+    canvas.Print();
+
+
+
+
+
+    /*Canvas canvas(10, 50);
     canvas.set_pixels(4, 4, 25, 124, 3, 33, 124, 2, 24, 95, 4, 3, 95);
     canvas.set_pixels(3, 7, 2, 95, 4, 21, 124, 5, 16, 95);
     canvas.set_pixels(3, 4, 41, 124, 7, 1, 124, 5, 8, 92);
@@ -47,6 +68,7 @@ int main() {
     canvas.set_pixels(1, 5, 43, 46);
 
     canvas.print();
-
+     */
+    return 0;
 }
 

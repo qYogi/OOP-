@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled1-Debug-0f555a1292dca011e177.json",
+					"jsonFile" : "target-untitled1-Debug-6e26e7c7b88c06aafdc3.json",
 					"name" : "untitled1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/bogdan/CLionProjects/untitled1/cmake-build-debug",
-		"source" : "/Users/bogdan/CLionProjects/untitled1"
+		"build" : "/Users/bogdan/Desktop/OOP/OOP-/Lab3/cmake-build-debug",
+		"source" : "/Users/bogdan/Desktop/OOP/OOP-/Lab3"
 	},
 	"version" : 
 	{

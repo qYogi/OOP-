@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(untitled1 main.cpp
         Math.cpp
-        Canvas.cpp)
+        Canvas.cpp
+        CanvasEx2.h
+        CanvasEx2.cpp)
