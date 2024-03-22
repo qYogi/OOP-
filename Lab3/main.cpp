@@ -5,10 +5,12 @@
 #include "CanvasEx2.h"
 using namespace std;
 int main() {
-    //Math math;
-    //char *result = math.Add("15", "35");
-    //cout << "Adunarea cu char: " << result << endl;
-    //cout << "Suma listei: " << math.Add(5, 1, 2, 3, 4, 5) << std::endl;
+    Math math;
+    char *a = "200000000000000000000000";
+    char *b = "200000000000000000000000";
+    char *result = math.Add(a, b);
+    cout << "Adunarea cu char: " << result << endl;
+    cout << "Suma listei: " << math.Add(5, 1, 2, 3, 4, 5) << std::endl;
 
 
 
@@ -17,14 +19,18 @@ int main() {
     CanvasEx2 canvas(30, 30);
 
     canvas.DrawRect(2, 2, 10, 15, '*');
-
+    //canvas.FillRect(2,2,10,15,'a');
     canvas.Print();
 
     canvas.Clear();
 
-    canvas.DrawCircle(15, 15, 8, '#'); // Center (15, 15), radius 8
+    canvas.DrawCircle(15, 15, 8, '#'); // Center (15, 15), radius 8]
+    //canvas.FillCircle(15,15,8,'#');
+
 
     canvas.Print();
+
+
 
 
 

@@ -63,8 +63,8 @@ char *Math::Add(const char *a, const char *b) {
         carry = sum / 10;
     }
 
-    if (carry)
-        arr[k--] = '1';
+   // if (carry)
+   // arr[k--] = '1';
 
 
     return &arr[k + 1];

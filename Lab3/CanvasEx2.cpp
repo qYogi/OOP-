@@ -23,6 +23,8 @@ void CanvasEx2::SetPoint(int x, int y, char ch) {
         matrix[y][x] =ch;
     }
 }
+
+//mid-point algortihm
 void CanvasEx2::DrawCircle(int x, int y, int ray, char ch) {
     int x0 = ray;
     int y0 = 0;
