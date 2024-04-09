@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <sstream>
 #include <cstdarg>
+#include <cstdlib>
 Sort::Sort() {}
 
 Sort::Sort(int numElem, int min, int max) {
